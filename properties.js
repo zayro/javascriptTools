@@ -1,3 +1,17 @@
+/**
+ * lastIndexOf
+ * encuentra la ultima coincidencia
+ */
+
+const arr = ["a", "d", "r", "a", "a", "f", "d"];
+
+arr.lastIndexOf('a')
+
+console.log(`TCL: : ------------------------------------------------`)
+console.log(`TCL: : arr.lastIndexOf('a')`, arr.lastIndexOf('a'))
+console.log(`TCL: : ------------------------------------------------`)
+
+
 const obj = {
   name: "John",
   age: "32",
