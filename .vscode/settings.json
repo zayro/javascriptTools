@@ -1,0 +1,6 @@
+{
+    "turboConsoleLog.includeFileNameAndLineNum": false,
+    "turboConsoleLog.insertEnclosingClass": false,
+    "editor.quickSuggestions.comments": true,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Segoe UI'"
+}

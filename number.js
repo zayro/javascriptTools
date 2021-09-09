@@ -34,6 +34,12 @@ console.log("TCL: Number.isInteger(10.5)", Number.isFinite(10.5))
  * NUMBER.ISNAN
  * Comprueba que el valor pasado es NaN (Not a number). 
  */
+
+Number.isNaN(123)
+console.log(`🚀 ~ Number.isNaN(123)`, Number.isNaN(123));
+
+
+
 console.log(Number.isNaN(123)); // false
 console.log(Number.isNaN('string')); // false
 console.log(Number.isNaN(NaN)); // true
