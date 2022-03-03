@@ -40,3 +40,6 @@ Emoji Snippets
 ### Keyboard Config
 
 editor.action.commentLine
+
+
+serve -s build -l 4000

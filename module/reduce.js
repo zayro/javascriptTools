@@ -9,6 +9,7 @@ let posts = [
   { type: "blog", content: "very interesting content" },
   { type: "text", content: "hey ya" },
 ];
+
 let { text: text_posts, blog: blog_posts } = posts.reduce(
   (str, el) => {
     str[el.type] += 1;
