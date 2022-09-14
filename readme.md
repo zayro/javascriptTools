@@ -6,6 +6,11 @@
 ## Bibiografia
 
 - <https://fullstackseries.com/post_series/javascript-moderno/>
+- <https://css-tricks.com/clipping-masking-css/>
+- <https://bennettfeely.com/clippy/>
+- <https://10015.io/tools/css-clip-path-generator>
+- <https://guias.makeitreal.camp/react/context>
+- <https://www.iebschool.com/blog/herramientas-prototipado-analitica-usabilidad/>
 
 ## Vscode
 
@@ -40,6 +45,5 @@ Emoji Snippets
 ### Keyboard Config
 
 editor.action.commentLine
-
 
 serve -s build -l 4000
