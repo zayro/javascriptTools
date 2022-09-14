@@ -1,9 +1,9 @@
-const value = true;
+const value = true
 
-if(value){
-    console.log('success');
-}else{
-    console.log('error');
+if (value) {
+  console.log('success')
+} else {
+  console.log('error')
 }
 
-(value) ? console.log('success') : console.log('error');
+value ? console.log('success') : console.log('error')

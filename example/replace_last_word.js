@@ -1,14 +1,12 @@
-const object = { a: 1, b: 2, c: 3 };
-let iterations = object.length;
+const object = { a: 1, b: 2, c: 3 }
 
-let condition = "";
-let conditional;
+let condition = ''
+
 for (const property in object) {
-        condition +=`${property} = '${object[property]}' AND `; 
+  condition += `${property} = '${object[property]}' AND `
 }
-conditional = condition.substring(0, condition.lastIndexOf('AND'));
+const conditional = condition.substring(0, condition.lastIndexOf('AND'))
 
-console.log(`TCL: : -------------------------------`);
-console.log(`TCL: : conditional: `, conditional);
-console.log(`TCL: : -------------------------------`);
-
+console.log('TCL: : -------------------------------')
+console.log('TCL: : conditional: ', conditional)
+console.log('TCL: : -------------------------------')

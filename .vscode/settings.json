@@ -1,6 +1,46 @@
 {
-    "turboConsoleLog.includeFileNameAndLineNum": false,
-    "turboConsoleLog.insertEnclosingClass": false,
-    "editor.quickSuggestions.comments": true,
-    "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Segoe UI'"
+  "turboConsoleLog.includeFileNameAndLineNum": false,
+  "turboConsoleLog.insertEnclosingClass": false,
+  "editor.quickSuggestions.comments": true,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace, 'Segoe UI Emoji', 'Segoe UI Symbol', 'Segoe UI'",
+  "editor.cursorStyle": "underline-thin",
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "prettier.eslintIntegration": true,
+
+  "prettier.printWidth": 160,
+  "editor.wordWrapColumn": 160,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.renderWhitespace": "all",
+
+  "editor.cursorBlinking": "expand",
+  "prettier.withNodeModules": true,
+
+  "editor.snippetSuggestions": "inline",
+  "javascript.suggest.completeJSDocs": true,
+  "javascript.suggestionActions.enabled": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "prompt",
+  "javascript.suggest.autoImports": true,
+  "standard.autoFixOnSave": true,
+  "standard.treatErrorsAsWarnings": true,
+  "cSpell.language": "en,es",
+  "git.repositoryScanIgnoredFolders": ["node_modules", "vendor"],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "node_modules": true
+  },
+  "glean.useExportDefault": true,
+  "glean.jsFilesExtensions": "js",
+  "glean.switchToTarget": true,
+  "cSpell.customDictionaries": {
+    "custom-dictionary-workspace": {
+      "name": "custom-dictionary-workspace",
+      "path": "${workspaceFolder:frontend}/.cspell/custom-dictionary-workspace.txt",
+      "addWords": true,
+      "scope": "workspace"
+    }
+  }
 }

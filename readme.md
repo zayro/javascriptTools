@@ -11,6 +11,7 @@
 - <https://10015.io/tools/css-clip-path-generator>
 - <https://guias.makeitreal.camp/react/context>
 - <https://www.iebschool.com/blog/herramientas-prototipado-analitica-usabilidad/>
+- https://www.adalo.com/cloneables/coaching-app
 
 ## Vscode
 
@@ -46,4 +47,4 @@ Emoji Snippets
 
 editor.action.commentLine
 
-serve -s build -l 4000
+serve -s ./ -l 5000

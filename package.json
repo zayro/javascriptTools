@@ -2,14 +2,13 @@
   "name": "js-tools",
   "version": "1.0.0",
   "description": "",
-  "main": "http-axios.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Marlon Zayro Arias Vargas <zayro8905@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "@mdi/font": "^6.5.95",
     "axios": "^0.24.0",
     "bootstrap": "^5.1.3",
     "chalk": "^5.0.0",
@@ -18,6 +17,11 @@
     "jquery": "^3.6.0"
   },
   "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
     "gulp": "^4.0.2",
     "gulp-jsdoc3": "^3.0.0",
     "jsdoc": "^3.6.10"

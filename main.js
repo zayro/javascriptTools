@@ -1,7 +1,5 @@
-import { matematicas } from "./module/matematicas.js";
-import { arreglos } from "./module/arreglos.js";
+import { Matematicas } from './module/matematicas.js'
+import { Arreglos } from './module/arreglos.js'
 
-window.instanciaMatematicas = new matematicas();
-window.instanciaArreglos = new arreglos();
-
-//const exponente = () => instanciaMatematicas.exponente();
+window.instanciaMatematicas = new Matematicas()
+window.instanciaArreglos = new Arreglos()
